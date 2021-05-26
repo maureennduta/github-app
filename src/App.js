@@ -39,6 +39,8 @@ class Form extends React.Component {
     await axios
       .get(`https://api.github.com/users/${this.state.userName}`,{
         headers: {
+          'Content-Type' : 'application/json',
+          'Accept' : 'application/json',
           'Authorization': `token ${token}` 
         }
       })
