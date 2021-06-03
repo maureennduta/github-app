@@ -43,6 +43,12 @@ form {
   border-radius: 50%;
 }
 
+link{
+  position: relative;
+  padding-right: 2em;
+  justify-content: left;
+}  
+
 .btn-add {
   background-color: #5BE575;
   margin-left: 1px;
