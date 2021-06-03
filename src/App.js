@@ -25,6 +25,9 @@ class Card extends React.Component {
         <div className="info">
           <div className="name">{profile.name}</div>
           <div className="company">{profile.company}</div>
+           <a href ={profile.html_url}>
+          <div className="link">{profile.html_url}</div>
+          </a>
         </div>
       </div>
     );
